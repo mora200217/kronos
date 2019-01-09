@@ -11,5 +11,8 @@
     "IB"
   ],
   "author": "Andres Morales <mora200217@hotmail.com>",
-  "license": "MIT "
+  "license": "MIT ",
+  "dependencies": {
+    "react": "^16.7.0"
+  }
 }
