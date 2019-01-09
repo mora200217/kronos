@@ -1,0 +1,15 @@
+{
+  "name": "kronos",
+  "version": "0.1.0",
+  "description": "Timer app for IB Exams",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Timer",
+    "IB"
+  ],
+  "author": "Andres Morales <mora200217@hotmail.com>",
+  "license": "MIT "
+}
