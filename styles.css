@@ -1,0 +1,10 @@
+/* FONTS */
+@font-face {
+  font-family: 'mont';
+  src: url('assets/myfont.otf') format('otf');
+  font-family: 'bigjohn';
+  src: url('assets/BIG-JOHN.otf') format('otf');
+  font-family: 'HelveticaNeue';
+  src: url('assets/HelveticaNeueUltraLight.ttf') format('ttf'),
+}
+
