@@ -41,3 +41,60 @@ ul.settings > li{
   font-weight: 500;
   font-size: 20px;
 }
+/* BODY */
+.main > .row{
+position: relative;
+height: 100vh;
+}
+
+.time{
+position: relative;
+display: table-cell;
+vertical-align:middle;
+margin-top: 200px;
+}
+
+.subject{
+  width: 601px;
+height: 60px;
+margin: 0px;
+display: inline;
+padding: 0px;
+font-size: 51px;
+text-align: center;
+color: #b2b2b2;
+}
+
+
+.image{
+  background-image: url('assets/mountains-bg.svg');
+  background-repeat: no-repeat;
+background-size: contain;
+    background-position: right top;
+  right: 0;
+  margin: 0px;
+  overflow: hidden;
+  z-index: -1;
+  height: 90%;
+
+}
+
+.clock{
+ font-family: mont;
+ font-size: 267px;
+ text-align: center;
+ color: #2a2a2b;
+}
+
+.time > p{
+display: block;
+margin: auto;
+padding: -10;
+vertical-align:middle;
+}
+
+.time > p.subject{
+line-height: 70%;
+margin-top: -100px;
+font-weight: lighter;
+}
