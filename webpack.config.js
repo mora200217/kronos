@@ -1,3 +1,4 @@
+
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
@@ -21,7 +22,7 @@ module.exports = (env) => {
     },
     output: {
       path: path.resolve(__dirname, 'dist'),
-      filename: 'js/[name].[hash].js',
+      filename: 'js/[name].js', // NOTE: Use  .[hash].js',  for production
       publicPath: path.resolve(__dirname, 'dist')+"/",
       chunkFilename: 'js/[id].[chunkhash].js',
     },
@@ -38,7 +39,7 @@ module.exports = (env) => {
           use: {
             loader: 'babel-loader',
             options: {
-              presets: ['es2015', 'react', 'stage-2'],
+              presets: ['env', 'react', 'stage-2'],
             }
           },
         },

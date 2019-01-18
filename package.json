@@ -1,5 +1,5 @@
 {
-  "name": "kronos",
+  "name": "krono",
   "version": "0.1.0",
   "description": "Timer app for IB Exams",
   "main": "app.js",
@@ -20,6 +20,7 @@
     "react": "^16.7.0"
   },
   "devDependencies": {
+    "babel-preset-stage-2": "^6.24.1",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.7.0",
