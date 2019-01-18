@@ -12,28 +12,27 @@
 
 <body>
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg  transparent menu navbar-light">
-    <a class="navbar-brand" href="#">KRONO</a>
-    <div class="navbar-text collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav settings row">
-        <li class="nav-item col">
-          <a class="nav-link" href="#">Subjects<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item col">
-          <a class="nav-link" href="#">Settings</a>
-        </li>
-        <li class="nav-item col">
-          <a class="nav-link" href="#">Info</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+
 
   <!-- Body Content -->
   <section class="main">
     <div class="row">
-      <div class="col col-2 time-sets"></div>
       <!-- Time Notification Icons Animation -->
+      <div class="col col-2 time-sets">
+        <span>
+          <p id="timenot-1">1</p>
+        </span>
+        <span>
+          <p id="timenot-2">2</p>
+        </span>
+        <span>
+          <p id="timenot-3">3</p>
+        </span>
+        <span>
+          <p id="timenot-4">4</p>
+        </span>
+        <div id="timeBar"></div>
+      </div>
       <!-- Main Clock and Exam Parameters -->
       <div class="col col-4 time">
         <p class="clock">12:13</p>
