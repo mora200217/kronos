@@ -42,6 +42,54 @@ ul.settings > li{
   font-size: 20px;
 }
 /* BODY */
+
+.time-sets{
+position: relative;
+display: flex;
+flex-flow: column;
+height: 80%;
+top: 150px;
+/* border: red solid 2px; */
+text-align: center;
+align-content: center;
+}
+
+.time-sets > span > p{
+position: relative;
+font-family: HelveticaNeue;
+font-size: 24px;
+font-weight: bold;
+color: gray;
+display: block;
+  vertical-align: middle;
+  margin: auto;
+
+}
+.time-sets > span{
+vertical-align: middle;
+text-align: center;
+background: white;
+align-content: center;
+border: #1f284e solid 7px;
+border-radius: 100%;
+display: block;
+position: relative;
+width: 70px;
+height: 70px;
+margin: auto;
+}
+
+#timeBar{
+  display: block;
+  position: fixed;
+  width: 7px;
+  height: 75%;
+  z-index: -1;
+  bottom: 0;
+  background: #1f284e;
+  align-self: center;
+}
+
 .main > .row{
 position: relative;
 height: 100vh;
@@ -76,6 +124,7 @@ background-size: contain;
   overflow: hidden;
   z-index: -1;
   height: 90%;
+  width: 10px;
 
 }
 
