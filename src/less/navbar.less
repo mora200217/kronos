@@ -1,4 +1,6 @@
 @import "fonts";
+@import "colors";
+
 .navbar.menu{
   position: fixed;
   z-index: 3;
@@ -30,4 +32,20 @@ text-align: center;
 ul.settings > li{
   font-weight: 500;
   font-size: 20px;
+}
+
+ul.settings > li:hover > span{
+  width: 100px;
+}
+
+ul.settings > li > span{
+  display: block;
+  position: relative;
+  width: 0px;
+  transition: .5s;
+  height: 2px;
+  background: @dark-blue;
+  align-self: center;
+  margin: auto;
+  margin-top: -7px;
 }

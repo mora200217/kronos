@@ -10,10 +10,11 @@ import './less/main.less'
 class App extends Component{
   render(){
     return(
-<div>
-     <Navbar />
-     <Main />
-     <Footer />
+    <div>
+       <Navbar />
+       <Main />
+       <Footer />
+
     </div>
   );
   }
