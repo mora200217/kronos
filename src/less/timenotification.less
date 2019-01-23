@@ -1,11 +1,39 @@
 
+#timeBar :hover{
+  height: 75%;
+}
+
+
 #timeBar{
   display: block;
   position: fixed;
   width: 7px;
-  height: 75%;
+  height: 0%;
   z-index: -1;
+  transition: 0.5s;
   bottom: 0;
-  background: #1f284e;
+  background: gray;
   align-self: center;
+}
+
+.time-sets{
+position: relative;
+display: flex;
+flex-flow: column;
+height: 80%;
+top: 150px;
+text-align: center;
+align-content: center;
+}
+
+.time-sets > span > p{
+position: relative;
+font-family: HelveticaNeue;
+font-size: 24px;
+color: gray;
+display: block;
+vertical-align: middle;
+margin: auto;
+margin-top: 7px;
+
 }
