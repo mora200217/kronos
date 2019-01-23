@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {render} from 'react-dom'
-import TimeCirlce from './TimeCirlce.js'
+import TimeCirlce from './TimeCircle.js'
 
 const NOTIFICATION_TIMES = [45, 30, 15, 5].reverse()
 const NOTIFICATION_NUMBER = NOTIFICATION_TIMES.length;
