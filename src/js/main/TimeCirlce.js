@@ -7,7 +7,7 @@ class TimeCircle extends Component{
   }
   render(){
     return(
-      <span>
+      <span className= 'time-circles'>
         <p>{this.props.name}</p>
       </span>
     );

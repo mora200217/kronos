@@ -1,19 +1,26 @@
 
-#timeBar :hover{
+.time-circles:hover ~   #timeBar {
   height: 75%;
 }
 
-
-#timeBar{
+.time-bar{
   display: block;
   position: fixed;
   width: 7px;
   height: 0%;
   z-index: -1;
-  transition: 0.5s;
+  transition: 2.5s;
   bottom: 0;
   background: gray;
   align-self: center;
+}
+#timeBarBg{
+  height: 75%;
+  background: gray;
+}
+#timeBar{
+  height: 0%;
+  background: @dark-primary;
 }
 
 .time-sets{
