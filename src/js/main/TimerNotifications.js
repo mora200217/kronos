@@ -5,6 +5,9 @@ import TimeCirlce from './TimeCircle.js'
 const NOTIFICATION_TIMES = [45, 30, 15, 5].reverse()
 const NOTIFICATION_NUMBER = NOTIFICATION_TIMES.length;
 
+// Test Functions
+
+
 class TimerNotifications extends Component {
   constructor(props) {
     super(props);
@@ -13,13 +16,19 @@ class TimerNotifications extends Component {
     }
   }
 
-  render() {
-    return (<div className="col col-2 time-sets">
-      {this.state.times.map((n) => (<TimeCirlce key={n} name={n}/>))}
-      <div class = "time-bar" id="timeBarBg"></div>
-      <div class = "time-bar" id="timeBar"></div>
+  componentDidMount(){
+    // document.getElementById('timeBar').addClass('experiment');
+    console.log('TimeBar Mounted!');
+  }
 
-    </div>);
+
+  render() {
+    return (
+      <div className="col col-2 time-sets">
+        {this.state.times.map((n) => (<TimeCirlce key={n} name={n}/>))}
+        <div className = "time-bar-container"></div>
+      </div>
+  );
   }
 }
 

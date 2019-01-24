@@ -3,6 +3,13 @@
   height: 75%;
 }
 
+.experiment{
+  width: 100%;
+}
+
+
+
+
 .time-bar{
   display: block;
   position: fixed;
@@ -14,12 +21,37 @@
   background: gray;
   align-self: center;
 }
+
+.time-sets > span{
+vertical-align: middle;
+text-align: center;
+background: white;
+align-content: center;
+border: @gray solid 7px;
+border-radius: 100%;
+display: block;
+position: relative;
+width: 70px;
+height: 70px;
+margin: auto;
+}
+.time-bar-container{
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 7px;
+  z-index: -1;
+  transition: 2.5s;
+  bottom: 0;
+  background: @light-gray;
+  align-self: center;
+}
 #timeBarBg{
-  height: 75%;
-  background: gray;
+  height: 100%;
+  background: @light-gray;
 }
 #timeBar{
-  height: 0%;
+
   background: @dark-primary;
 }
 
@@ -28,9 +60,10 @@ position: relative;
 display: flex;
 flex-flow: column;
 height: 80%;
-top: 150px;
+top: 157px;
 text-align: center;
 align-content: center;
+
 }
 
 .time-sets > span > p{
