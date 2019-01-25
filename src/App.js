@@ -5,7 +5,7 @@ import Footer from './js/Footer.js'
 import Main from './js/Main.js'
 import Navbar from './js/Navbar.js'
 
-import './less/main.less'
+import './styles/main.sass'
 
 class App extends Component{
   render(){

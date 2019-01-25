@@ -1,8 +1,11 @@
 import React, {Component} from 'react'
 import { render } from 'react-dom'
-import '../less/navbar.less'
+import '../styles/navbar.sass'
 
 class Navbar extends Component{
+  subjectsClicked(){
+    console.log('Subjects Click!')
+  }
   render(){
     return(
       <nav className="navbar navbar-expand-lg  transparent menu navbar-light">
@@ -10,7 +13,7 @@ class Navbar extends Component{
         <div className="navbar-text collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav settings row">
             <li className="nav-item col menu">
-              <a className="nav-link" href="#">Subjects</a>
+              <a className="nav-link" onClick = {this.subjectsClicked} href="#">Subjects</a>
               <span/>
             </li>
             <li className="nav-item col">
@@ -19,7 +22,7 @@ class Navbar extends Component{
             </li>
             <li className="nav-item col">
               <a className="nav-link" href="#">Info</a>
-                <span/> 
+                <span/>
             </li>
           </ul>
         </div>
