@@ -1,0 +1,47 @@
+@import "fonts"
+@import "colors"
+
+.navbar.menu
+  position: fixed
+  z-index: 3
+  margin-top: 5px
+
+.navbar.menu > a
+  margin-left: 20px
+
+.transparent
+    background-color: rgba(0,0,0,0.0)
+
+nav > a
+  font-family: bigjohn
+  color: #b2b2b2
+  opacity: .6
+  font-size: 80px
+  padding-top: 20px
+
+ul.settings
+  float: right
+  display: flex
+  position: fixed
+  /*  */
+  right: 0px
+  width: 40%
+  text-align: center
+
+ul.settings > li
+  font-weight: 500
+  font-size: 20px
+
+ul.settings > li:hover > span
+  width: 100px
+
+ul.settings > li > span
+  display: block
+  position: relative
+  width: 0px
+  transition: .5s
+  height: 2px
+  background: $dark-blue
+  align-self: center
+  margin: auto
+  margin-top: -7px

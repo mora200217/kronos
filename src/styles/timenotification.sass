@@ -1,0 +1,32 @@
+@import "time-sets"
+
+.time-circles:hover + div
+  height: 75%
+
+// QUESTION: What is this?
+.experiment
+  width: 100%
+
+.time-bar
+  display: block
+  position: absolute
+  width: 7px
+  height: 0%
+  transition: 2.5s ease-in-out
+  transition: 2.5s
+  bottom: 0
+  align-self: center
+
+.time-bar-container
+  display: flex
+  position: absolute
+  height: 100%
+  width: 7px
+  z-index: -1
+  transition: 2.5s
+  bottom: 0
+  background: $light-gray
+  align-self: center
+
+#timeBar
+  background: $dark-primary

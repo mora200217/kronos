@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { render } from 'react-dom'
-import '../less/footer.less'
+import '../styles/footer.sass'
 
 class Footer extends Component{
   render(){

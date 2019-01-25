@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { render } from 'react-dom'
-import '../less/main.sass'
+import '../styles/main.sass'
 import 'jquery'
 import Clock from './main/Clock.js'
 import TimerNotifications from './main/TimerNotifications.js'

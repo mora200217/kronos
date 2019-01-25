@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { render } from 'react-dom'
-import '../less/navbar.less'
+import '../styles/navbar.sass'
 
 class Navbar extends Component{
   subjectsClicked(){
