@@ -1,42 +1,41 @@
 
-.time-circles:hover ~   #timeBar {
+.time-circles:hover + div {
   height: 75%;
 }
 
+// QUESTION: What is this?
 .experiment{
   width: 100%;
 }
 
-
-
-
 .time-bar{
   display: block;
-  position: fixed;
+  position: absolute;
   width: 7px;
   height: 0%;
-  z-index: -1;
+ transition: 2.5s ease-in-out;
   transition: 2.5s;
   bottom: 0;
-  background: gray;
   align-self: center;
 }
 
 .time-sets > span{
-vertical-align: middle;
+position: static;
+vertical-align: top;
 text-align: center;
 background: white;
 align-content: center;
 border: @gray solid 7px;
 border-radius: 100%;
 display: block;
-position: relative;
 width: 70px;
 height: 70px;
 margin: auto;
+margin-top: 0;
 }
+
 .time-bar-container{
-  display: block;
+  display: flex;
   position: absolute;
   height: 100%;
   width: 7px;
@@ -46,29 +45,25 @@ margin: auto;
   background: @light-gray;
   align-self: center;
 }
-#timeBarBg{
-  height: 100%;
-  background: @light-gray;
-}
-#timeBar{
 
+#timeBar{
   background: @dark-primary;
 }
 
+
 .time-sets{
-position: relative;
+// position: relative;
 display: flex;
 flex-flow: column;
 height: 80%;
 top: 157px;
 text-align: center;
 align-content: center;
-
 }
 
 .time-sets > span > p{
 position: relative;
-font-family: HelveticaNeue;
+font-family: HelveticaNeue; // IDEA: Change This Font
 font-size: 24px;
 color: gray;
 display: block;

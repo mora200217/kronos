@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
 
-// TODO: Less sheet for this one
+//TODO: Less sheet for this one
 
 class TimeCircle extends Component{
   constructor(props){
